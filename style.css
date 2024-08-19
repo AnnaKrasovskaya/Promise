@@ -1,0 +1,20 @@
+#allPosts {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  .post {
+    align-items: start;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 10px;
+    .name {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+}
